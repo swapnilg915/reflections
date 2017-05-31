@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+** to initialize any directory as a git directory just go inside that directory and run command git init, that directory will be initialized as a git directory.
+The new git directrory doesnt have any commits until we do, so when we run command git log on this, fatal: bad default revision 'HEAD', this error appears because 'HEAD' represents the recent commit, and as there is not any commit when we initialize any directory as a git directory, it throws this error message.

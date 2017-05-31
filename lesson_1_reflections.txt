@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ans: The first advantage of this 'diff' command is it showns only the lines with difference between 2 files, not all the lines, so it is easy to read and check difference in those particular lines manually.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ans: Having an easy access to the entire history of a file will help me to get the older version of the file when i will change my code or make firther improvements in it and due to some reasons it wont work.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ans: pros = Manually choosing when to create a commit provides us the flexibility. It also have a advantage that is prevents history to be too large, unlike the automatic version save.
+cons = It is not very easy to decide when to create a commit. All it needs is a lot of practice and experience to judge and take this decision. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ans: Its good that git provides this flexibility of committing more than one file at a time, because sometimes for a one logical change, we may have to edit multiple files and hence to commit that one logical change, we need to commit multiple files at a time.
+
+How can you use the commands git log and git diff to view the history of files?
+ans: To view the history of the files, first run command git log, then find the particular commit name, then get the id of this commit, then press down arrow to view the id of the next commit, then get that d too.
+Once we have both the id's use command git diff id1 id2 to view the differences between the 2 files. The lines in green are the added lines and the lines in the red are removed ones.
+
+How might using version control make you more confident to make changes that could break something?
+ans: Using version control gives me confidence to make changes without worries because Even if I make any mistake and my code doesnt work, I can still resolve the issue. First I will do git log and run command git checkout to remove the current changes to go to the previous version of the code. Again I will check whether this version of code is working or not ,if its working I will stop and if its not working I can still use git checkout until I get the running version of the code. While doing so, I will get the warning message that you are in the head detach mode.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+ans: I would like to use git for all my project work, coding, study.
