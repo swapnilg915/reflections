@@ -25,4 +25,5 @@ branch : Branch is a another copy of out project on our local machine. Like mast
 What is the benefit of having a copy of the last known state of the remote stored locally?
 I cant answer this.
 
-
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+The easy way to collaborate is using pull request. Ican create a new branch on my local, make a change i want and add,commit,push it to github. Then I will create a pull request (this is the request that i am making to the original owner of the fork dir that, please pull my changes in the original fork dir), then if he want, he can merge the pull request to accept it.
