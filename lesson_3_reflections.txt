@@ -1,3 +1,28 @@
+git remote
+git remote add origin https://github.com/swapnilg915/reflections.git
+git remote -v
+
+origin = remote's name
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because I can have the flexibility of when to pull and when to push.
+
+forking = getting clone of somebody's directory directly on my github repo. Hence I can pull it on my local machine, make appropriate changes to work on it and then push it. 
+It is very easy and it takes just a 1 command to do it.
+
+But forking have a disadvantage : that is If i make any changes to this forked directory and push it , the changes are linked to the original directory of someone, so git also changes that original dir.
+
+when we take a clone, git automatically sets a remote for that directory (for push and pull), so we dont need to do it manually using commands git remote, and git remote add origin ....
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+clone : clone is a copy of the git repo on our local machine. eg. ud120-projects
+fork : It is a copy of a somebody's project on my github account directly. Not necessarily on a local. eg. recipe
+branch : Branch is a another copy of out project on our local machine. Like master is our main branch, easy-mode is the another branch that we have created.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+I cant answer this.
+
+
